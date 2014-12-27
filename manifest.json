@@ -1,0 +1,12 @@
+{
+  "name": "Crosh Terminal",
+  "description": "Drop a crosh shell",
+  "version": "0.1",
+  "manifest_version": 1,
+  "app": {
+    "background": {
+      "scripts": ["crosh.html"]
+    }
+  },
+  "icons": { "16": "crosh-16.png", "128": "crosh-128.png" }
+}
